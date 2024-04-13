@@ -1,0 +1,2 @@
+# RspackMonoTemplate
+Rspack Monorepo Template
