@@ -90,9 +90,6 @@ importers:
       '@types/node':
         specifier: 20.11.10
         version: 20.11.10
-      '@types/pdfkit':
-        specifier: 0.13.3
-        version: 0.13.3
       '@types/react':
         specifier: 17.0.2
         version: 17.0.2
@@ -2344,12 +2341,6 @@ packages:
 
   /@types/parse-json@4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
-    dev: true
-
-  /@types/pdfkit@0.13.3:
-    resolution: {integrity: sha512-CN0prCV0n1HssBg34izaTAcWRmq0916SnsmpTsRqIxlbdS6QkDYsZ5/cm6/a5V2MO3501fbZHkv9DLjJCh9W4Q==}
-    dependencies:
-      '@types/node': 20.11.10
     dev: true
 
   /@types/prop-types@15.7.5:
