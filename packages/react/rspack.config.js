@@ -79,7 +79,7 @@ module.exports = {
       },
     ],
   },
-  target: "es5",
+  target: isDev ? undefined : "es5",
   devtool: isDev ? "source-map" : false,
   output: {
     chunkLoading: "jsonp",

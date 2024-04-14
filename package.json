@@ -4,6 +4,7 @@
   "scripts": {
     "dev:react": "pnpm --filter mono-react run dev",
     "build:react": "pnpm --filter mono-react run build",
+    "clear": "rm -rf ./**/node_modules/",
     "lint-es": "eslint --fix --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
     "lint-style": "stylelint \"**/*.{css,scss,sass}\" --fix --ignore-path .gitignore"
   },
