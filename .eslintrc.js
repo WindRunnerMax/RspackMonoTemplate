@@ -23,7 +23,7 @@ module.exports = {
     commonjs: true,
     es2021: true,
   },
-  ignorePatterns: ["node_modules", "build", "dist", "coverage", "public"],
+  ignorePatterns: ["node_modules", "build", "dist", "coverage", "public", "*.html"],
   rules: {
     // 分号
     "semi": "error",
@@ -31,15 +31,13 @@ module.exports = {
     "quote-props": ["error", "consistent-as-needed"],
     // 箭头函数允许单参数不带括号
     "arrow-parens": ["error", "as-needed"],
-    // no var
+    // `no var`
     "no-var": "error",
-    // const
+    // `const`
     "prefer-const": "error",
-    // 允许console
+    // 允许 `console`
     "no-console": "off",
-    // 关闭每个函数都要显式声明返回值
-    // "@typescript-eslint/explicit-module-boundary-types": "off",
-    // 偏好import type
+    // 偏好`import type`
     "@typescript-eslint/consistent-type-imports": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
