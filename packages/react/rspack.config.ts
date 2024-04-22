@@ -1,13 +1,16 @@
-const path = require("path");
-const { default: HtmlPlugin } = require("@rspack/plugin-html");
-const CopyPlugin = require("copy-webpack-plugin");
+/// <reference types="./script/global.d.ts" />
+import type { Configuration } from "@rspack/cli";
+import { default as HtmlPlugin } from "@rspack/plugin-html";
+import CopyPlugin from "copy-webpack-plugin";
+import path from "path";
 
 const isDev = process.env.NODE_ENV === "development";
 
 /**
  * @type {import('@rspack/cli').Configuration}
+ * @document https://www.rspack.dev/
  */
-module.exports = {
+const config: Configuration = {
   context: __dirname,
   entry: {
     index: "./src/index.tsx",
@@ -92,4 +95,4 @@ module.exports = {
   },
 };
 
-// https://www.rspack.dev/
+export default config;

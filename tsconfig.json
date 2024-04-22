@@ -26,5 +26,10 @@
   },
   "include": [
     "packages/*/src"
-  ]
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }

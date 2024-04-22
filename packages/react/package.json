@@ -12,9 +12,9 @@
     "dist"
   ],
   "scripts": {
-    "dev": "rspack serve --config ./rspack.config.js",
-    "build": "rspack build --config ./rspack.config.js",
-    "analyze": "rspack build --config ./rspack.config.js --analyze"
+    "dev": "rspack serve --config ./rspack.config.ts",
+    "build": "rspack build --config ./rspack.config.ts",
+    "analyze": "rspack build --config ./rspack.config.ts --analyze"
   },
   "keywords": [],
   "author": "",
