@@ -2,6 +2,7 @@
   "name": "rspack-mono-template",
   "version": "1.0.0",
   "scripts": {
+    "bootstrap": "pnpm install --frozen-lockfile",
     "dev:react": "pnpm --filter mono-react run dev",
     "build:react": "pnpm --filter mono-react run build",
     "clear": "rm -rf ./**/node_modules/",
