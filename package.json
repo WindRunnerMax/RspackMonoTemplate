@@ -1,5 +1,5 @@
 {
-  "name": "react-rspack-template",
+  "name": "rspack-mono-template",
   "version": "1.0.0",
   "scripts": {
     "dev:react": "pnpm --filter mono-react run dev",
@@ -39,5 +39,9 @@
     "stylelint-config-standard": "25.0.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.2"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=8"
   }
 }
