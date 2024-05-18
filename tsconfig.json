@@ -22,6 +22,7 @@
     "jsx": "react-jsx",
     "paths": {
       "mono-utils": ["./packages/utils/src"],
+      "mono-utils/dist/*": ["./packages/utils/src/*"]
     },
   },
   "include": [
