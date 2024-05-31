@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
+    "lint:ts": "tsc -p tsconfig.build.json --noEmit",
     "release": "./publish.sh",
     "test": "jest"
   },
