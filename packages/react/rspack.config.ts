@@ -7,7 +7,7 @@ import path from "path";
 const isDev = process.env.NODE_ENV === "development";
 
 /**
- * @type {import('@rspack/cli').Configuration}
+ * @type {import("@rspack/cli").Configuration}
  * @document https://www.rspack.dev/
  */
 const config: Configuration = {
@@ -90,6 +90,7 @@ const config: Configuration = {
   target: isDev ? undefined : "es5",
   devtool: isDev ? "source-map" : false,
   output: {
+    clean: true,
     chunkLoading: "jsonp",
     chunkFormat: "array-push",
     publicPath: isDev ? "" : "./",
