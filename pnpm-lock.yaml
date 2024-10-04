@@ -39,7 +39,7 @@ importers:
         specifier: 4.3.0
         version: 4.3.0(eslint@7.11.0)
       eslint-plugin-simple-import-sort:
-        specifier: ^10.0.0
+        specifier: 10.0.0
         version: 10.0.0(eslint@7.11.0)
       postcss:
         specifier: 8.3.3
@@ -115,8 +115,8 @@ importers:
   packages/utils:
     dependencies:
       laser-utils:
-        specifier: 0.0.2-alpha.9
-        version: 0.0.2-alpha.9
+        specifier: 0.0.5-alpha.10
+        version: 0.0.5-alpha.10
       lodash-es:
         specifier: 4.17.21
         version: 4.17.21
@@ -5857,8 +5857,8 @@ packages:
     resolution: {integrity: sha512-RTSoaUAfLvpR357vWzAz/50Q/BmHfmE6ETSWfutT0AJiw10e6CmcdYRQJlLRd95B53D0Y2aD1jSxD3V3ySF+PA==}
     dev: true
 
-  /laser-utils@0.0.2-alpha.9:
-    resolution: {integrity: sha512-MXeKJn4us9G3/aOWtO9quLLJsUjOfTMrHRSvo89F8iDWc1gjf6Lywt5kUQhJVHMuuXxTUqpLCw1rJcDM9pGnOQ==}
+  /laser-utils@0.0.5-alpha.10:
+    resolution: {integrity: sha512-nZmDTXC2AYyll+vSJV00a0NN8JsGHD48NTZeTx54lWAsnAx2Bj36h39Vj9q9kHKxvA9q3VQg8I4Y5E9xb8y+Zw==}
     dev: false
 
   /launch-editor@2.6.1:

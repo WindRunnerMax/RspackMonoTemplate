@@ -25,21 +25,13 @@ module.exports = {
   },
   ignorePatterns: ["node_modules", "build", "dist", "coverage", "public", "*.html"],
   rules: {
-    // 分号
     "semi": "error",
-    // 对象键值引号样式保持一致
     "quote-props": ["error", "consistent-as-needed"],
-    // 箭头函数允许单参数不带括号
     "arrow-parens": ["error", "as-needed"],
-    // no var
     "no-var": "error",
-    // const
     "prefer-const": "error",
-    // 允许 console
     "no-console": "off",
-    // 偏好 import type
     "@typescript-eslint/consistent-type-imports": "error",
-    // 排序 import / export
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
   },
