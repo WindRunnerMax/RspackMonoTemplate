@@ -27,7 +27,7 @@ function echo_notice {
 
 export BUILD_VERSION=$version
 echo_notice "$package@$version"
-echo_notice "Loc: $(pnpm --filter "${package}" exec pwd)"
+echo_notice "Package: $(pnpm --filter "${package}" exec pwd)"
 
 if ! check_argument "--emit" || check_argument "--build-only"; then
     echo_notice "Notice: Current Version Will Not Publish To NPM"
@@ -61,7 +61,6 @@ echo "\
   fs.writeFileSync('$cache_dir/package.json', JSON.stringify(json, null, 2));
 " | node
 
-set +e
 cd $cache_dir
 if check_argument "--emit"; then
     npm publish --registry=https://registry.npmjs.org/ --access public

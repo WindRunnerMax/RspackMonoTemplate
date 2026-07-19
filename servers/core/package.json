@@ -12,9 +12,16 @@
     "@nestjs/common": "11.0.1",
     "@nestjs/core": "11.0.1",
     "@nestjs/platform-express": "11.0.1",
-    "@workspace/utils": "workspace: *"
+    "@workspace/utils": "workspace: *",
+    "@prisma/client": "6.19.0",
+    "axios": "1.18.1",
+    "connect-redis": "7.1.1",
+    "express-session": "1.19.0",
+    "ioredis": "5.11.1",
+    "prisma": "6.19.0"
   },
   "devDependencies": {
+    "@types/express-session": "1.19.0",
     "@rollup/plugin-alias": "6.0.0",
     "@rollup/plugin-commonjs": "22.0.1",
     "@rollup/plugin-node-resolve": "13.3.0",
